@@ -1,0 +1,337 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@437&display=swap');
+*{
+	font-family: 'Raleway', sans-serif;
+}
+body{
+	overflow-x: hidden!important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.parallax-window {
+    min-height: 400px;
+    width: 100vw;
+     background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#para1{
+background-image: url("img/p1.jpg");
+}
+#para2{
+background-image: url("img/prenup-tog.jpg");
+min-height: 100vh;
+}
+.paracon{
+	z-index: 1000;
+
+	height: 650px;
+	width: 50%;
+	position: relative;
+	
+
+}
+#para2text{
+	position: absolute;
+ text-align: left;
+  color: #ffffff;
+  font-size: 40px;
+  bottom: 0;
+  left: 25%;
+  
+}
+.navbar-toggler{
+	width: 56px;
+	height: 42px;
+}
+.navbar-toggler-icon{
+	display: block;
+}
+.navbar-toggler-icon-rotate{
+	transition: .2s;
+	transform: rotate(180deg);
+}
+
+.navbar-toggler-x{
+	border: 0;
+	display: none;
+	border: 1px solid #f8f9fa;
+	align-content: center;
+	justify-content: center;
+	
+	width: 100%;
+	height:100%;
+	
+
+}
+.navbar-toggler-x-rotate{
+	overflow: hidden;
+	transition: .2s;
+	transform: rotate(-180deg);
+}
+.navbar-toggler-x i{
+	height: 30px;
+	width: 30px;
+	font-size: 30px;
+}
+#banner{
+
+	z-index: 100;
+	opacity: 1;
+	margin-top: 12em;
+	color: #ffffff;
+	
+}
+#banner h1{
+	font-size: 50px;
+	color: #ffffff;
+	background: transparent;
+	text-align: center;
+}
+#bannerwed h5{
+	text-align: center;
+	color: #ffffff;
+
+}
+#bannerwed {
+margin: 0;
+padding: 0;
+
+}
+ #bannerwed hr{
+
+	width: 100px;
+	
+	background-color: #ffffff;
+}
+#aboutme{
+	z-index: 1000;
+	overflow-x: hidden;
+	
+	padding: 0;
+	margin: 0;
+}
+#left{
+	background-image: url(img/photograph.jpg);
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.img-about{
+	display: none;
+}
+#right{
+	overflow-x: hidden;
+	
+	
+	padding: 25px;
+	margin: 0;
+}
+#right hr{
+	width: 50px;
+}
+.fa-greater-than{
+
+	margin: auto 15px;
+}
+
+#rightcontain{
+	margin: 0;
+}
+
+#port img,#port2 img,#port3 img{
+	overflow: hidden; 
+	height: 100%;
+	width: 100%;
+	transition: all .2s ease-in-out;
+	
+}
+.portclass{
+	
+	overflow: hidden;
+	z-index: 10;
+}
+
+.portclass img:hover{
+	z-index: 1;
+	opacity: 0.6;
+	transform: scale(1.1);
+	overflow: hidden; 
+}
+.para2{
+	position: relative;
+}
+#spanmoments{
+	margin-top: 50%;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	padding: 15px;
+	
+	width: 50%;
+	font-size: 45px;
+	letter-spacing: 0.1em;
+}
+#contactright,#contact{
+	margin: 0;
+	padding: 0;
+}
+
+.contacttext h3{
+	font-size: 40px;
+}
+.contacttext hr{
+	margin-left: 0;
+	width: 50px;
+}
+.contacttext p{
+	margin-bottom: 0;
+	letter-spacing: 0;
+}
+.form-check{
+	padding: 0;
+	margin: 0;
+	
+}
+#login *{
+	color: #217CA7!important;
+}
+
+.prenup-wu{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.btnsub{
+	background-color: #CCCCCC;
+	border:#CCCCCC;
+}
+.foot{
+	text-align: center;
+}
+.foot i{
+	font-size: 32px;
+}
+.copy i{
+	font-size: 12px!important;
+}
+.socialmed{
+	z-index: 1000;
+	top: 45%;
+	left: 1%;
+	padding: 0;
+	font-size:32px;	
+	margin: 0;
+}
+.socialmed ul{
+	padding: 0 0;
+	margin: 0 0;
+}
+.socialmed ul li{
+	background-color: red;
+}
+
+#port,#port2,#port3{
+	z-index: 10;
+	padding: 0;
+	
+}
+.offanim{
+	overflow: hidden;
+	animation-name: anim;
+	animation-duration: 4s;
+}
+@keyframes anim {
+  from {opacity: 0;}
+  to {opacity: 1;}
+
+
+}
+.bords{
+	border: 1px solid !important; 
+}
+.ca-banner h3{
+	font-size: 40px;
+}
+.ca-banner hr{
+	color:#212529!important;
+	width: 50px;
+
+}
+.ca-banner p{
+	font-size: 10px;
+
+}
+.ca-al img{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}.ca-al img:hover{
+	z-index: 1;
+	opacity: 0.6;
+	transform: scale(1.1);
+	overflow: hidden; 
+}
+
+
+@media only screen and (max-width: 999px)  {
+	.nav-link{
+		font-size: .7rem!important;
+	}
+}
+@media only screen and (max-width: 768px)  {
+	.nav-link{
+		font-size: 1rem!important;
+	}
+	
+	#para2text{
+	left: 20%;
+	}
+}
+@media only screen and (max-width: 630px)  {
+	.paracon{
+		width: 75%;
+	}
+	#para2text{
+	left: 10%;
+	}
+}
+@media only screen and (max-width: 576px)  {
+	#left{
+		height: 60vh;
+	}
+	#bannerwed{
+		flex-direction: column!important;
+	}
+	 #bannerwed hr{	
+		margin: auto 0;
+	}
+	#banner{	
+		margin-top: 10em;
+	}
+	.ca-al{
+		padding: 0!important;
+		margin: 0!important;
+	}
+}
+@media only screen and (max-width: 430px)  {
+	.paracon{
+		width: 85%;
+	}
+	#para2text{
+	left: 5%;
+	}
+}
+
+
+
